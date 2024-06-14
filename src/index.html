@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <!-- required meta start -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- required meta end -->
+
+    <!-- optional meta start -->
+    <meta name="description" content="psd -> html">
+    <meta name="keywords" content="html, css, Jquery, bootstrap">
+    <meta name="author" content="Rifat Hossain">
+    <meta name='url' content='http://www.rhossain.me'>
+    <meta name='reply-to' content='admin@rhossain.me'>
+    <!-- optional meta end -->
+    <!-- fonts in fonts.scss-->
+
+    <title>beatls psd -> Bootstrap</title>
+</head>
+
+<body>
+
+    <!-- header start -->
+    <header id="header">
+        <!-- topbar start -->
+        <div class="topbar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-4">
+                        <p>Welcome to Beatles</p>
+                    </div>
+                    <div class="col-md-3 col-sm-5 offset-md-6 offset-sm-3 ">
+                        <ul class="list-inline d-flex justify-content-end">
+                            <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fab fa-pinterest"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fab fa-behance"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- topbar end -->
+
+    </header>
+    <!-- header end -->
+
+    <!-- navbar start -->
+    <nav id="#nav" class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" class="img-fluid" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" onclick="$('#header').animatescroll();" href="#header">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" onclick="$('#about').animatescroll({padding:60});" href="#about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"  onclick="$('#portfolio').animatescroll({padding:90});" href="#portfolio">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" onclick="$('#testimonial').animatescroll({padding:90});" href="#testimonial">Testimonial</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blogs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" onclick="$('#info').animatescroll();" href="#info">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- banner start -->
+    <section class="banner" id="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 offset-md-6">
+                    <div class="banner-content">
+                        <h2>Hi! We Are</h2>
+                        <h1>Creative Designer</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                            labore et
+                            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. </p>
+                        <button>Hire Us</button>
+                        <button class="ml-4">Contact</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- banner end -->
+
+    <!-- about start -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+
+                <div class="about-head">
+                    <h1 class="hed">About Us</h1>
+                    <img src="images/seperator.png" class="img-fluid" alt="seperator">
+                </div>
+
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src="images/aboutUs.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-md-7">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officiaeserunt
+                            mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                            accusantium doloremque laudantium.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about end -->
+
+    <!-- services start -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="services-head text-center">
+                <h1 class="hed">Our Services</h1>
+                <img src="images/seperator.png" class="img-fluid" alt="separator">
+            </div>
+            <div class="row">
+                <!-- one service start -->
+                <div class="col-md-4 my-5">
+                    <div class="service-item">
+                        <div class="content-head">
+                            <div class="inner text-center">
+                                <img src="images/service1.png" class="img-fluid" alt="sd">
+                            </div>
+                        </div>
+
+                        <div class="service-content">
+                            <h1 class="hed2 text-center">Graphic Design</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetpisg elit, sed do eiusmod tempor incididunt ut
+                                labore et
+                                dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- one service end -->
+                <!-- one service start -->
+                <div class="col-md-4 my-5">
+                    <div class="service-item">
+                        <div class="content-head">
+                            <div class="inner text-center">
+                                <img src="images/service2.png" class="img-fluid" alt="sd">
+                            </div>
+                        </div>
+
+                        <div class="service-content">
+                            <h1 class="hed2 text-center">Graphic Design</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetpisg elit, sed do eiusmod tempor incididunt ut
+                                labore et
+                                dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- one service end -->
+                <!-- one service start -->
+                <div class="col-md-4 my-5">
+                    <div class="service-item">
+                        <div class="content-head">
+                            <div class="inner text-center">
+                                <img src="images/service3.png" class="img-fluid" alt="sd">
+                            </div>
+                        </div>
+
+                        <div class="service-content">
+                            <h1 class="hed2 text-center">Graphic Design</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetpisg elit, sed do eiusmod tempor incididunt ut
+                                labore et
+                                dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- one service end -->
+            </div>
+        </div>
+    </section>
+    <!-- services end -->
+
+    <!-- portfolio start -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="services-head text-center">
+                <h1 class="hed">Our Portfolio</h1>
+                <img src="images/seperator.png" class="img-fluid" alt="separator">
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-6">
+                    <div class="port-wrapper">
+                        <!-- one image -->
+                        <div class="box my-3">
+                            <img src="images/port-1.jpg" class="img-fluid w-100" alt="portImg">
+                            <div class="overlay">
+                                <div class="bg">
+                                    <i class="fas fa-link fa-flip-horizontal"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- one image -->
+                        <!-- one image -->
+                        <div class="box my-3">
+                            <img src="images/port-2.jpg" class="img-fluid w-100" alt="portImg">
+                            <div class="overlay">
+                                <div class="bg">
+                                    <i class="fas fa-link fa-flip-horizontal"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- one image -->
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-6">
+                    <div class="port-wrapper">
+                        <!-- one image -->
+                        <div class="box my-3">
+                            <img src="images/port-3.jpg" class="img-fluid w-100" alt="portImg">
+                            <div class="overlay">
+                                <div class="bg">
+                                    <i class="fas fa-link fa-flip-horizontal"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- one image -->
+                        <!-- one image -->
+                        <div class="box my-3">
+                            <img src="images/port-4.jpg" class="img-fluid w-100" alt="portImg">
+                            <div class="overlay">
+                                <div class="bg">
+                                    <i class="fas fa-link fa-flip-horizontal"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- one image -->
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-6">
+                    <div class="port-wrapper">
+                        <!-- one image -->
+                        <div class="box my-3">
+                            <img src="images/port-5.jpg" class="img-fluid w-100" alt="portImg">
+                            <div class="overlay">
+                                <div class="bg">
+                                    <i class="fas fa-link fa-flip-horizontal"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- one image -->
+                        <!-- one image -->
+                        <div class="box my-3">
+                            <img src="images/port-6.jpg" class="img-fluid w-100" alt="portImg">
+                            <div class="overlay">
+                                <div class="bg">
+                                    <i class="fas fa-link fa-flip-horizontal"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- one image -->
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-6">
+                    <div class="port-wrapper">
+                        <!-- one image -->
+                        <div class="box my-3">
+                            <img src="images/port-7.jpg" class="img-fluid w-100" alt="portImg">
+                            <div class="overlay">
+                                <div class="bg">
+                                    <i class="fas fa-link fa-flip-horizontal"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- one image -->
+                        <!-- one image -->
+                        <div class="box my-3">
+                            <img src="images/port-8.jpg" class="img-fluid w-100" alt="portImg">
+                            <div class="overlay">
+                                <div class="bg">
+                                    <i class="fas fa-link fa-flip-horizontal"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- one image -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- portfolio end -->
+
+
+    <!-- team start -->
+    <section class="team" id="team">
+        <div class="container">
+            <div class="head text-center">
+                <h1 class="hed">Our Team</h1>
+                <img src="images/seperator.png" class="img-fluid" alt="separator">
+            </div>
+            <div class="row">
+                <!-- one member -->
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="box2 one">
+                        <img src="images/team1.jpg" class="img-fluid w-100" alt="portImg">
+                        <div class="overlay">
+
+                            <ul>
+                                <li class="my-4">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                </li>
+                                <li class="my-4">
+                                    <a href="#">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="my-4">
+                                    <a href="#">
+                                        <i class="fab fa-pinterest"></i>
+                                    </a>
+                                </li>
+                                <li class="my-4">
+                                    <a href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div class="box-footer">
+                        <h1 class="one">Sajal Sarder</h1>
+                        <p>Web Designer</p>
+                    </div>
+                </div>
+                <!-- one member -->
+                <!-- one member -->
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="box2 two">
+                        <img src="images/team-2.jpg" class="img-fluid w-100" alt="portImg">
+                        <div class="overlay">
+
+                            <ul>
+                                <li class="my-4">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                </li>
+                                <li class="my-4">
+                                    <a href="#">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="my-4">
+                                    <a href="#">
+                                        <i class="fab fa-pinterest"></i>
+                                    </a>
+                                </li>
+                                <li class="my-4">
+                                    <a href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div class="box-footer">
+                        <h1 class="two">Sakeba Aney</h1>
+                        <p>Web Designer</p>
+                    </div>
+                </div>
+                <!-- one member -->
+                <!-- one member -->
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="box2 three">
+                        <img src="images/team1.jpg" class="img-fluid w-100" alt="portImg">
+                        <div class="overlay">
+
+                            <ul>
+                                <li class="my-4">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                </li>
+                                <li class="my-4">
+                                    <a href="#">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="my-4">
+                                    <a href="#">
+                                        <i class="fab fa-pinterest"></i>
+                                    </a>
+                                </li>
+                                <li class="my-4">
+                                    <a href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div class="box-footer">
+                        <h1 class="three">ABS Ujjal</h1>
+                        <p>Web Designer</p>
+                    </div>
+                </div>
+                <!-- one member -->
+                <!-- one member -->
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="box2 four">
+                        <img src="images/team-4.jpg" class="img-fluid w-100" alt="portImg">
+                        <div class="overlay">
+
+                            <ul>
+                                <li class="my-4">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                </li>
+                                <li class="my-4">
+                                    <a href="#">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="my-4">
+                                    <a href="#">
+                                        <i class="fab fa-pinterest"></i>
+                                    </a>
+                                </li>
+                                <li class="my-4">
+                                    <a href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div class="box-footer">
+                        <h1 class="four">Aney Irin</h1>
+                        <p>Web Designer</p>
+                    </div>
+                </div>
+                <!-- one member -->
+            </div>
+        </div>
+    </section>
+    <!-- team end -->
+
+    <!-- testimonial start -->
+    <section class="testimonial" id="testimonial">
+        <div class="container">
+            <div class="head text-center">
+                <h1 class="hed">Testimonial</h1>
+                <img src="images/seperator.png" class="img-fluid" alt="separator">
+            </div>
+            <div class="row">
+                <!-- testimonial item start -->
+                <div class="col-md-6">
+                    <div class="testimonial-item">
+                        <div class="item-head">
+                            <img src="images/test-1.png" class="img-fluid" alt="person">
+                        </div>
+                        <div class="item-content">
+                            <div class="item-arrow"></div>
+                            <div class="item-text">
+                                <h1 class="hed2">Shahin Alom</h1>
+                                <ul class="list-inline">
+                                    <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                                    <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                                    <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                                    <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                                    <li class="list-inline-item"><i class="fas fa-star-half"></i></li>
+                                </ul>
+                                <p>Chairman</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                    incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- testimonial item end -->
+                <!-- testimonial item start -->
+                <div class="col-md-6">
+                    <div class="testimonial-item">
+                        <div class="item-head">
+                            <img src="images/test-2.png" class="img-fluid" alt="person">
+                        </div>
+                        <div class="item-content">
+                            <div class="item-arrow"></div>
+                            <div class="item-text">
+                                <h1 class="hed2">MAhadi Tahsan</h1>
+                                <ul class="list-inline">
+                                    <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                                    <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                                    <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                                    <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                                    <li class="list-inline-item"><i class="fas fa-star-half"></i></li>
+                                </ul>
+                                <p>Exicutive Director</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                    incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- testimonial item end -->
+            </div>
+        </div>
+    </section>
+    <!-- testimonial end -->
+
+    <!-- info start -->
+    <section class="info" id="info">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="part-1">
+                        <img src="images/logo2.png" class="img-fluid" alt="logo">
+                        <p>Lorem ipsum dolor sit amet, conser adipisicing elit, sed do eiumod apor incididunt ut labore
+                            et dolore magna aliqua.</p>
+                        <p>Lorem ipsum dolor sit amet, conser adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="part-2">
+                        <h1>Contact us</h1>
+                        <div class="row">
+                            <div class="col-md-2 col-sm-3 col-2 offset-md-0 offset-sm-0 offset-2">
+                                <div class="contact-icon">
+                                    <ul>
+                                        <li><i class="fas fa-phone fa-flip-horizontal"></i></li>
+                                        <li><i class="fas fa-envelope"></i></li>
+                                        <li><i class="fas fa-globe-americas"></i></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-10 col-sm-9 col-6">
+                                <div class="contact-content">
+                                    <p>+334 1234 5987 <br>
+                                        +334 9876 2354</p>
+                                    <p>
+                                        beatlsinfo@gmail.com <br>
+                                        informationbeatls@mail.com
+                                    </p>
+                                    <p>www.beatlsinformation.com <br>
+                                        www.informationbeatls.com</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-4">
+                    <div class="part-3">
+                        <h1>Important Links</h1>
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6 col-4 offset-md-0 offset-sm-0 offset-2">
+                                <ul>
+                                    <li>
+                                        <a href="#">Home</a>
+                                    </li>
+                                    <li><a href="#">About us</a></li>
+                                    <li>
+                                        <a href="#">portfolio</a>
+                                    </li>
+                                    <li><a href="#">Our Team</a></li>
+                                    <li><a href="#">Blog</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-4">
+                                <ul>
+                                    <li>
+                                        <a href="#">Pricing</a>
+                                    </li>
+                                    <li><a href="#">Blog</a>
+                                    </li>
+                                    <li><a href="#">Feedback</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-8">
+                    <div class="part-4">
+                        <h1>Flickr Photos</h1>
+                        <div class="row">
+                            <div class="col-md-4 col-sm-4 col-4">
+                                <img src="images/flickr-1.jpg" class="img-fluid" alt="flickr">
+                                <img src="images/flickr-2.jpg" class="img-fluid" alt="flickr">
+                            </div>
+                            <div class="col-md-4 col-sm-4 col-4">
+                                <img src="images/flickr-3.jpg" class="img-fluid" alt="flickr">
+                                <img src="images/flickr-4.jpg" class="img-fluid" alt="flickr">
+                            </div>
+                            <div class="col-md-4 col-sm-4 col-4">
+                                <img src="images/flickr-5.jpg" class="img-fluid" alt="flickr">
+                                <img src="images/flickr-6.jpg" class="img-fluid" alt="flickr">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- info end -->
+
+    <!-- footer start -->
+    <footer>
+        <p class="text-center">Copyright &copy; 2017. All rights reserved by <span>BEATLS</span></p>
+    </footer>
+    <!-- footer end -->
+
+    <!-- all -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

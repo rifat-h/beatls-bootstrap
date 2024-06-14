@@ -1,0 +1,17 @@
+fonts
+==============
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+
+icons
+==============
+<i class="fab fa-facebook-f"></i>
+<i class="fab fa-twitter"></i>
+<i class="fab fa-pinterest"></i>
+<i class="fab fa-instagram"></i>
+<i class="fab fa-behance"></i>
+<i class="fas fa-phone"></i>
+<i class="fas fa-globe-americas"></i>
+<i class="fas fa-envelope"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star-half"></i>

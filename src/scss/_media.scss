@@ -1,0 +1,217 @@
+@import 'variable.scss';
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+
+    // info start
+    .info {
+        .part-1 {
+            text-align: center;
+
+            p {
+                &:last-of-type {
+                    margin-top: 15px;
+                }
+            }
+        }
+
+        .part-2 {
+            margin-top: 35px;
+
+            h1 {
+                text-align: center;
+
+            }
+        }
+
+        .part-3 {
+            text-align: center;
+            margin-top: 35px;
+        }
+
+        .part-4 {
+            text-align: center;
+            margin-top: 35px;
+        }
+    }
+
+    // info end
+
+    // testimonial start
+    .testimonial {
+        .testimonial-item {
+            .item-content {
+                margin-bottom: 30px;
+            }
+        }
+    }
+
+    // testimonial end
+
+    // <!-- about start -->
+    .about {
+
+        .about-content {
+            p {
+                text-align: center;
+            }
+
+            .about-head {
+                margin-top: 20px;
+                margin-bottom: 25px;
+            }
+        }
+    }
+
+    // <!-- about end -->
+
+    // <!-- banner start -->
+
+    .banner {
+        .banner-content {
+            text-align: center;
+
+            h2 {
+                font-size: 28px;
+            }
+
+            h1 {
+                font-size: 35px;
+            }
+
+            // button {
+            //     margin-left: 10px;
+            // }
+        }
+    }
+
+    // <!-- banner end -->
+
+    // topbar start
+    .topbar {
+        p {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            justify-content: center !important;
+        }
+    }
+
+    // topbar end
+
+    // navbar start
+    nav {
+        ul {
+            li {
+                text-align: center !important;
+            }
+        }
+    }
+
+    // navbar end
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    // info start
+    .info {
+        // .part-1 {}
+
+        // .part-2 {}
+
+        .part-3 {
+            margin-top: 35px;
+        }
+
+        .part-4 {
+            margin-top: 35px;
+        }
+    }
+
+    // info end
+
+    // testimonial start
+    .testimonial {
+        .testimonial-item {
+            .item-content {
+                margin-bottom: 30px;
+            }
+        }
+    }
+
+    // testimonial end
+
+    // <!-- about start -->
+    .about {
+
+        .about-content {
+            p {
+                text-align: center;
+            }
+
+            .about-head {
+                margin-top: 20px;
+                margin-bottom: 25px;
+            }
+        }
+    }
+
+    // <!-- about end -->
+
+    // <!-- banner start -->
+
+    .banner {
+        .banner-content {
+            text-align: center;
+
+            h2 {
+                font-size: 28px;
+            }
+
+            h1 {
+                font-size: 35px;
+            }
+
+        }
+    }
+
+    // <!-- banner end -->
+
+    // navbar start
+    nav {
+        ul {
+            li {
+                text-align: center !important;
+            }
+        }
+    }
+
+    // navbar end
+
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+
+    // navbar start
+    nav {
+        ul {
+            li {
+                text-align: center !important;
+            }
+        }
+    }
+
+    // navbar end
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {}
